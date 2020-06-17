@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint --init",
+    "lint": "eslint ts --fix",
     "tsc": "tsc",
     "build": "webpack"
   },
