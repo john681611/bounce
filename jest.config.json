@@ -1,0 +1,5 @@
+{
+  "setupFiles": [
+    "./__mocks__/client.js"
+  ]
+}
