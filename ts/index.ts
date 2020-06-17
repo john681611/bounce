@@ -22,6 +22,6 @@ export const getBalls = (): Ball[] => balls
 
 setInterval(function () {
     const ctx = canvas.getContext("2d");
-    balls = ballPhysx(balls, ctx);
+    balls = ballPhysx(balls, ctx.canvas);
     drawFrame(balls)
 }, 1000 / 60);
